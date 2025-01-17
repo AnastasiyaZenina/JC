@@ -1,7 +1,7 @@
-package APItests;
+package API.tests;
 
+import API.specifications.ApiSpecifications;
 import org.junit.jupiter.api.Test;
-import specifications.ApiSpecifications;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;

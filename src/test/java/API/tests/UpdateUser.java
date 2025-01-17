@@ -1,15 +1,14 @@
-package APItests;
+package API.tests;
 
+import API.specifications.ApiSpecifications;
 import org.junit.jupiter.api.Test;
-import specifications.ApiSpecifications;
 
-import java.time.Instant;
 import java.time.LocalDateTime;
 import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
 
 import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.equalTo;
+
 //Кейс 4:
 //Обновить информацию о пользователе методом patch и сравнить дату обновления с
 //текущей датой в системе
